@@ -1,6 +1,6 @@
 module.exports = (options = {}, context) => ({
   name: 'i18n-ui',
-  clientOnly: true,
+  devOnly: true,
   enhanceAppFiles: [
     context.resolve(__dirname, 'client.js')
   ],
