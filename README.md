@@ -1,6 +1,8 @@
 # vuepress-plugin-i18n-ui
 
-> **Status**: WIP and will be released with VuePress's plugin API.
+> **Status**: **WIP** and will be released along with VuePress's plugin API.
+
+## Demo
 
 ![](./demo.gif)
 
