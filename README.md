@@ -1,6 +1,8 @@
 # vuepress-plugin-i18n-ui
 
-[![NPM version](https://img.shields.io/npm/v/vuepress-plugin-i18n-ui.svg?style=flat)](https://npmjs.com/package/vuepress-plugin-i18n-ui) [![NPM downloads](https://img.shields.io/npm/dm/vuepress-plugin-i18n-ui.svg?style=flat)](https://npmjs.com/package/vuepress-plugin-i18n-ui) [![CircleCI](https://circleci.com/gh/ULIVZ/vuepress-plugin-i18n-ui/tree/master.svg?style=shield)](https://circleci.com/gh/ULIVZ/vuepress-plugin-i18n-ui/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/ULIVZ/donate)
+> **Status**: WIP and will be released with VuePress's plugin API.
+
+![](./demo.gif)
 
 ## Install
 
@@ -24,7 +26,7 @@ module.exports = {
 ### route
 
 - Type: `String`
-- Default: `/i18n-ui/`. 
+- Default: `/i18n-ui/`
 
 Routing entry of UI.
 
