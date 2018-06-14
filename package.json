@@ -1,0 +1,36 @@
+{
+  "name": "vuepress-plugin-i18n-ui",
+  "version": "0.0.1",
+  "description": "it has never been so easy to translate your docs!",
+  "repository": {
+    "url": "ULIVZ/vuepress-plugin-translation-ui",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm run lint && jest",
+    "lint": "xo"
+  },
+  "author": "ULIVZ <chl814@foxmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "@vue/ui": "^0.3.3"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^19.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": [
+      "jest"
+    ]
+  }
+}
