@@ -1,7 +1,7 @@
 {
   "name": "vuepress-plugin-i18n-ui",
   "version": "0.0.1",
-  "description": "it has never been so easy to translate your docs!",
+  "description": "More enjoyable translation of your VuePress-powered documents",
   "repository": {
     "url": "ULIVZ/vuepress-plugin-translation-ui",
     "type": "git"
