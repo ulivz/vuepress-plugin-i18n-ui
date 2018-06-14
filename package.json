@@ -19,9 +19,6 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "dependencies": {
-    "@vue/ui": "^0.3.3"
-  },
   "devDependencies": {
     "eslint-config-rem": "^3.0.0",
     "jest-cli": "^19.0.0",
