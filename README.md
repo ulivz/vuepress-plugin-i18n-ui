@@ -1,23 +1,32 @@
-# vuepress-plugin-translation-ui
+# vuepress-plugin-i18n-ui
 
-[![NPM version](https://img.shields.io/npm/v/vuepress-plugin-translation-ui.svg?style=flat)](https://npmjs.com/package/vuepress-plugin-translation-ui) [![NPM downloads](https://img.shields.io/npm/dm/vuepress-plugin-translation-ui.svg?style=flat)](https://npmjs.com/package/vuepress-plugin-translation-ui) [![CircleCI](https://circleci.com/gh/ULIVZ/vuepress-plugin-translation-ui/tree/master.svg?style=shield)](https://circleci.com/gh/ULIVZ/vuepress-plugin-translation-ui/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/ULIVZ/donate)
+[![NPM version](https://img.shields.io/npm/v/vuepress-plugin-i18n-ui.svg?style=flat)](https://npmjs.com/package/vuepress-plugin-i18n-ui) [![NPM downloads](https://img.shields.io/npm/dm/vuepress-plugin-i18n-ui.svg?style=flat)](https://npmjs.com/package/vuepress-plugin-i18n-ui) [![CircleCI](https://circleci.com/gh/ULIVZ/vuepress-plugin-i18n-ui/tree/master.svg?style=shield)](https://circleci.com/gh/ULIVZ/vuepress-plugin-i18n-ui/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/ULIVZ/donate)
 
 ## Install
 
 ```bash
-yarn add vuepress-plugin-translation-ui -D
+# Make it as a dev-only dependency.
+yarn add vuepress-plugin-i18n-ui -D
 ```
 
 ## Usage
 
 
 ``` js
+// .vuepress/config.js
 module.exports = {
   plugins: [ 'i18n-ui' ]
 }
 ```
 
-By default, it creates a page with route as `/i18n-ui/`.
+## Options
+
+### route
+
+- Type: `String`
+- Default: `/i18n-ui/`. 
+
+Routing entry of UI.
 
 ## Contributing
 
@@ -29,7 +38,7 @@ By default, it creates a page with route as `/i18n-ui/`.
 
 ## Author
 
-**vuepress-plugin-translation-ui** © [ulivz](https://github.com/ULIVZ), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by ulivz with help from contributors ([list](https://github.com/ULIVZ/vuepress-plugin-translation-ui/contributors)).
+**vuepress-plugin-i18n-ui** © [ulivz](https://github.com/ULIVZ), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by ulivz with help from contributors ([list](https://github.com/ULIVZ/vuepress-plugin-i18n-ui/contributors)).
 
 > [github.com/ulivz](https://github.com/ulivz) · GitHub [@ulivz](https://github.com/ULIVZ) · Twitter [@_ulivz](https://twitter.com/_ulivz)
