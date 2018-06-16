@@ -1,14 +1,18 @@
-module.exports = (options = {}, context) => ({
+module.exports = (options = {}, {
+  isProd,
+  resolve,
+}) => ({
   name: 'i18n-ui',
-  devOnly: true,
+  // Only use this plugin at development mode.
+  enabled: !isProd,
   enhanceAppFiles: [
-    context.resolve(__dirname, 'client.js')
+    resolve(__dirname, 'client.js')
   ],
   additionalPages: [
     {
       override: false,
       route: options.route || '/i18n-ui/',
-      path: context.resolve(__dirname, 'index.md')
+      path: resolve(__dirname, 'index.md')
     }
   ]
 })
