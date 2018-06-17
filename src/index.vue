@@ -53,7 +53,6 @@ export default {
     },
 
     rightKey () {
-      console.log(this.rightPage.key)
       return this.rightPage.key
     },
 
@@ -78,9 +77,7 @@ export default {
 
     pages () {
       return this.$site.pages
-        .filter(page => {
-          return this.localeList.every(locale => page.path.indexOf(locale.url) !== 0)
-        })
+        .filter(page => this.localeList.every(locale => page.path.indexOf(locale.url) !== 0))
         .filter(page => page.path !== '/translation/')
     }
   },
@@ -119,12 +116,14 @@ function syncScroll () {
   #vuepress-plugin-i18n-ui
     .helper-content
       position relative
+
     .tool-box
       height 4rem
       line-height 4rem
       text-align center
       .select-lang ~ select
         margin-right 10px
+
     #left, #right
       padding 70px
       box-sizing border-box
@@ -152,5 +151,4 @@ function syncScroll () {
     opacity 0
     position absolute !important
     transform: translate(5%) !important
-
 </style>
