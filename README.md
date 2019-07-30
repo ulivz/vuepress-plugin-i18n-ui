@@ -1,5 +1,7 @@
 # vuepress-plugin-i18n-ui
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/vuepress-plugin-i18n-ui.svg)](https://greenkeeper.io/)
+
 > **Status**: **WIP** and will be released along with VuePress's plugin API.
 
 ## Demo
